@@ -11,7 +11,6 @@ let xAttempts = 1;
 btnTry.addEventListener('click', handleTryClick)
 btnReset.addEventListener('click', handleResetClick)
 document.addEventListener('keydown', function(e) {
-  console.log(e.key)
   if(e.key == 'Enter'){
     handleResetClick()
   }
